@@ -1,0 +1,139 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px;
+    overflow: hidden; 
+}
+ 
+li {
+    float: right;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+button.menu {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+button:hover {
+    box-shadow: 2px 2px 2px 2px rgba(155, 162, 165, 0.645), 2px 2px 2px 2px rgba(155, 162, 165, 0.645);
+}
+div.logo {   
+    list-style-type: none;
+    float: left;
+    transition-duration: 0.4s;
+}
+div.logo:hover{
+    box-shadow: 2px 1px 2px 2px rgba(155, 162, 165, 0.645), 2px 1px 2px 2px rgba(155, 162, 165, 0.645);
+    border-radius: 50px;
+}
+div.cadastro {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 16px 16px;
+}
+.logo1 {
+    grid-area: 1 / 1 / span 2 / span 3;
+    margin-top: 10%;
+    float:left;
+}
+.titulo {
+    color: black;
+    font-weight: lighter;
+    text-align:center;
+    font: 32px lighter;
+    margin: auto;
+}
+.texto {
+    color: black;
+    font-weight: lighter;
+    text-align: left;
+    font: lighter;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-style: none;
+    flex-direction: column;
+}
+input[type=nome] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(179, 178, 178);
+    margin-bottom: 10%;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(179, 178, 178);
+    margin-bottom: 10%;
+}
+input[type=senha] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 4px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(179, 178, 178);
+    margin-bottom: 10%;
+}
+button.cadastrar a {
+    color: #ffffff;
+    list-style-type: none;
+    text-decoration: none;
+}
+button.cadastrar {
+    background-color: #000000;
+    border: #000000;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 18px 10%;
+    margin-top: 10px; 
+    text-align:center;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-position: center;
+    transition-duration: 0.4s;
+    width: 50%;
+}
+button:hover.cadastrar{
+    box-shadow: 10px 10px 8px 2px rgba(67, 67, 67, 0.34), 10px 10px 8px 2px rgba(67, 67, 67, 0.34);
+}
+div.rodape {  
+    height: 36px;
+    display:grid;
+    grid-template-columns: 50% 50% 50% auto;
+    gap: 2%;
+    padding: 1%;
+    width: 64%;
+    margin: 1%;
+}
+footer {
+    color: black;
+    margin: 2%;
+    text-align: center;
+    height:96%;
+    margin-bottom: 2%;
+}
+

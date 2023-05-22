@@ -1,0 +1,133 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px;
+    overflow: hidden;
+    box-sizing:content-box; 
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+button.menu {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+button:hover {
+    box-shadow: 2px 2px 2px 2px rgba(155, 162, 165, 0.645), 2px 2px 2px 2px rgba(155, 162, 165, 0.645);
+}
+div.logo {   
+    list-style-type: none;
+    float: left;
+    transition-duration: 0.4s;
+}
+div.logo:hover{
+    box-shadow: 2px 1px 2px 2px rgba(155, 162, 165, 0.645), 2px 1px 2px 2px rgba(155, 162, 165, 0.645);
+    border-radius: 50px;
+}
+section {
+    box-sizing:inherit;
+}
+.produtos {
+    float:center;
+    width: 64%;
+    display: grid;
+    grid-template-columns: 70% 40% 50% auto;
+    gap: 5%;
+    padding: 8px 8px;
+    transition-duration: 0.4s;
+}
+div.ventilador:hover {
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 2px 1px 2px 2px rgba(155, 162, 165, 0.645), 2px 1px 2px 2px rgba(155, 162, 165, 0.645);
+}
+div.ventilador img {
+    width: 100%;
+    height: auto;
+}
+p.produto {
+    font-size: 16px;
+    font-weight: bold;
+}
+p.valor {
+    font-size: 20px;
+    font-weight: bold;
+}
+p.cor {
+    font-size: 14px;
+}
+p.pagamento {
+    font-size: 14px;
+}
+div.descricao {
+    margin-top: 40%;
+    margin-bottom: 8%;
+    text-align:left;
+}
+div.button {
+    margin-top: 45%;
+}
+button.comprar a {
+    color: #ffffff;
+    list-style-type: none;
+    text-decoration: none;
+}
+button.comprar {
+    background-color: #000000f1;
+    border: #000000;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 1px 5%; 
+    text-align:center;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-position: center;
+    transition-duration: 0.4s;
+    width: 50%;
+    min-height: 20%;
+    max-height: 40%;
+}
+button:hover.comprar{
+    box-shadow: 10px 10px 8px 2px rgba(67, 67, 67, 0.34), 10px 10px 8px 2px rgba(67, 67, 67, 0.34);
+}
+div.rodape {  
+    height: 36px;
+    display:grid;
+    grid-template-columns: 50% 50% 50% auto;
+    gap: 2%;
+    padding: 1%;
+    width: 64%;
+    margin: 1%;
+}
+footer {
+    color: black;
+    margin: 2%;
+    text-align: center;
+    height:96%;
+    margin-bottom: 2%;
+}

@@ -1,0 +1,98 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px;
+    overflow: hidden;
+    box-sizing:content-box; 
+}
+ 
+li {
+    float: right;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+button.menu {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+button:hover {
+    box-shadow: 2px 2px 2px 2px rgba(155, 162, 165, 0.645), 2px 2px 2px 2px rgba(155, 162, 165, 0.645);
+}
+div.logo {   
+    list-style-type: none;
+    float: left;
+    transition-duration: 0.4s;
+}
+div.logo:hover{
+    box-shadow: 2px 1px 2px 2px rgba(155, 162, 165, 0.645), 2px 1px 2px 2px rgba(155, 162, 165, 0.645);
+    border-radius: 50px;
+}
+div.ventilador:hover {
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 2px 1px 2px 2px rgba(155, 162, 165, 0.645), 2px 1px 2px 2px rgba(155, 162, 165, 0.645);
+}
+div.ventilador img {
+    width: 100%;
+    height: auto;
+}
+  
+div.descricao {
+    padding: 15px;
+    text-align: center;
+}
+section {
+    box-sizing:content-box;
+}
+.produtos {
+    float:left;
+    width: 64%;
+    display: grid;
+    grid-template-columns: 50% 50% 50% auto;
+    gap: 2%;
+    padding: 8px 8px;
+}
+p.titulo {
+    font-size: 14px;
+    font-weight: bold;
+}
+p.valor {
+    font-size: 18px;
+    font-weight: bold;
+}
+p.cor {
+    font-size: 14px;
+}
+p.pagamento {
+    font-size: 14px;
+}
+div.rodape {  
+    height: 36px;
+    display:grid;
+    grid-template-columns: 50% 50% 50% auto;
+    gap: 2%;
+    padding: 1%;
+    width: 64%;
+    margin: 1%;
+}
+footer {
+    color: black;
+    margin: 2%;
+    text-align: center;
+    height:96%;
+    margin-bottom: 2%;
+}
